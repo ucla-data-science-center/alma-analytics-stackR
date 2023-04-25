@@ -1,5 +1,5 @@
 ---
-title: "stackR"
+title: "TITLE"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -8,7 +8,7 @@ output:
     includes:
       in_header: "www/css/style.css"
 params:
-  file: "data/test_data.csv"
+  file: "data/powell-data.csv"
 runtime: shiny
 ---
 
@@ -425,7 +425,7 @@ renderValueBox({
   valueBox(
     value = format(nrow(d), big.mark = ",", scientific = FALSE),
     icon = "fa-university",
-    color = "#267aba",
+    color = "#004d2d",
     caption = "Total number of records in stackR"
   )
   
@@ -441,7 +441,7 @@ renderValueBox({
   valueBox(
     value = format(nrow(values$df), big.mark = ",", scientific = FALSE),
     icon = "fa-book",
-    color = "#267aba",
+    color = "#004d2d",
     caption = "Number of records that match your filtering criteria"
   )
   
@@ -455,7 +455,7 @@ renderValueBox({
   valueBox(
     value = format(length(unique(values$df$oclc_num)), big.mark = ",", scientific = FALSE),
     icon = "fa-list-ul",
-    color = "#267aba",
+    color = "#004d2d",
     caption = "Unique OCLC Numbers in selected records"
   )
   
@@ -475,7 +475,7 @@ renderValueBox({
   valueBox(
     value = paste0(round(df_have/length(un_oclc) * 100, 2), "%"),
     icon = "fa-check-circle",
-    color = "#267aba",
+    color = "#004d2d",
     caption = "Percent of selected records checked against WorldCat"
   )
   

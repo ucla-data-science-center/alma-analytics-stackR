@@ -5,12 +5,12 @@
 */
 
 body {
-  background: #f2f2f2;
+  background: #FFFFFF;
   padding: 60px 0 0 8px; /* padding-top overridden by theme */
 }
 
 body hr {
-  border-color: #d7d7d7;
+  border-color: #FFFFFF;
   margin: 10px 0;
 }
 
@@ -392,7 +392,7 @@ body hr {
   border-color: transparent;
 }
 .nav-tabs-custom > .nav-tabs > li.active {
-  border-top-color: #004d2d;
+  border-top-color:#2774AE;
 }
 .nav-tabs-custom > .nav-tabs > li.active > a,
 .nav-tabs-custom > .nav-tabs > li.active:hover > a {
@@ -582,8 +582,8 @@ table.dataTable thead th {
   display: none;
 }
 .navbar-inverse {
-  background-color: #00693e;
-  border-color: #004d2d;
+  background-color: #2774AE;
+  border-color: #2774AE;
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
@@ -602,13 +602,13 @@ table.dataTable thead th {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #004d2d;
+  background-color: #2774AE;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #004d2d;
+  background-color: #2774AE;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -621,28 +621,28 @@ table.dataTable thead th {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #004d2d;
+  background-color: #2774AE;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #00693e;
+  border-color: #2774AE;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #004d2d;
+  background-color: #2774AE;
   color: #ffffff;
 }
 
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #004d2d;
+    border-color: #2774AE;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #004d2d;
+    background-color: #2774AE;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
@@ -650,13 +650,13 @@ table.dataTable thead th {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
-    background-color: #004d2d;
+    background-color: #2774AE;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #004d2d;
+    background-color: #2774AE;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
