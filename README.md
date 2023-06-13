@@ -93,3 +93,15 @@ The "Data" page in `stackR` allows users to view and download their filtered dat
 This page also allows users to download WorldCat holdings information if a valid API key is provided (as outlined above).
 
 ![Data Page](./docs/gifs/data_page.gif)
+
+
+### Modifications by Shail
+Modifications made to adapt this application to the use cases needed by UCLA Library
+
+#### What has been done
+- Created a data mapping for the powell data to match the stackR data format (see `data-mapping.R`)
+- Launched the application on the Shiny.io Server (https://ucla-library.shinyapps.io/alma-analytics-stackR/)
+
+### What still needs to be done
+- Troubleshoot and fix the problem with the WorldCat API Integration (Currently getting a 407 proxy error)
+- Adapt the dashboard to show metrics that are more useful for the UCLA library use cases
